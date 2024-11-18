@@ -1,0 +1,67 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
+
+#game-grid {
+  font: 85px arial, sans-serif;
+  margin: 3px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+#game-grid > button {
+  text-align: center;
+  font-size: 48px; /* Adjusted font size for better button readability */
+  font-family: inherit;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff; /* Set background to white */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+#game-grid > button:hover {
+  background-color: #f0f0f0; /* Light grey hover effect */
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ddd; /* Disabled button appearance */
+  cursor: not-allowed;
+}
