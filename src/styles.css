@@ -23,7 +23,7 @@ body {
 
 #game-grid > button {
   text-align: center;
-  font-size: 48px; /* Adjusted font size for better button readability */
+  font-size: 48px; 
   font-family: inherit;
   width: 100px;
   height: 100px;
@@ -33,12 +33,12 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: #fff; /* Set background to white */
-  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  background-color: #fff; 
+  transition: background-color 0.3s ease; 
 }
 
 #game-grid > button:hover {
-  background-color: #f0f0f0; /* Light grey hover effect */
+  background-color: #f0f0f0; 
 }
 
 .X {
@@ -62,6 +62,6 @@ body {
 }
 
 button:disabled {
-  background-color: #ddd; /* Disabled button appearance */
+  background-color: #ddd; 
   cursor: not-allowed;
 }
